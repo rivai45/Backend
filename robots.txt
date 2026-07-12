@@ -1,0 +1,23 @@
+User-agent: *
+
+# Blokir halaman admin dari mesin pencari
+Disallow: /web_pemesanan_hotel/backend/
+Disallow: /?page=admin/
+Disallow: /?page=admin/dashboard
+Disallow: /?page=admin/booking
+Disallow: /?page=admin/properti
+Disallow: /?page=admin/anggota
+Disallow: /?page=admin/pendapatan
+Disallow: /?page=admin/pengaturan
+
+# Blokir halaman auth dari indexing
+Disallow: /?page=login
+Disallow: /?page=register
+Disallow: /?page=logout
+
+# Izinkan halaman publik
+Allow: /?page=home
+Allow: /?page=destinasi
+Allow: /?page=hotel
+
+Sitemap: https://www.yourdomain.com/sitemap.xml

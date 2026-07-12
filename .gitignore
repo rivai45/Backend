@@ -1,0 +1,17 @@
+# ─── File sensitif — JANGAN PERNAH dicommit ke Git ──────────────────────────
+.env.php
+error.log
+*.log
+
+# ─── Folder uploads (file gambar) ────────────────────────────────────────────
+/uploads/*
+!/uploads/index.php
+!/uploads/.htaccess
+
+# ─── Task tracker (internal) ─────────────────────────────────────────────────
+task.md
+
+# ─── OS files ─────────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
